@@ -1,0 +1,40 @@
+.grid{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    
+}
+
+
+.grp1{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    border:2px solid rgb(199,198,198);
+    border-radius:10px;
+    margin:10px;
+    padding:20px;
+}
+.score{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.text{
+    display:flex;
+    justify-content: start;
+}
+.a{
+    grid-column-start: 3;
+}
+.footer{
+    margin-left : 80px;
+    font-size : 18px;
+    margin-bottom:0;
+    text-align:center;
+    background-color:black;
+    color:white;
+    height:30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
